@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/htdocs",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "berkaycatak",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "windwalker/edge": "~3.0",
+    "illuminate/database": "^8.83",
+    "illuminate/events": "^8.83",
+    "google/apiclient": "^2.8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "app/controllers",
+      "Models\\": "app/models",
+      "Illuminate\\Database\\": ""
+    }
+  }
+}
