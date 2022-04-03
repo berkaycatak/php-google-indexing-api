@@ -49,7 +49,21 @@ composer installed.
 ```sh
 composer update
 ```
+### Enter the name of your JSON file:
 
+Line 15 in app/controllers/home.php
+```php
+...
+$googleClient->setAuthConfig( 'YOUR_JSON_FILE_NANME.json' );
+...
+```
+
+Line 15 in app/controllers/multiple.php
+```php
+...
+$googleClient->setAuthConfig( 'YOUR_JSON_FILE_NANME.json' );
+...
+```
 ## If your PHP version is below 8
 
 1- run the command below.
