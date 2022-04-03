@@ -12,7 +12,7 @@ class home extends Controller
             $googleClient = new Google\Client();
 
             // Add here location to the JSON key file that you created and downloaded earlier.
-            $googleClient->setAuthConfig( 'lyra-media-35279d101c92.json' );
+            $googleClient->setAuthConfig( 'YOUR_JSON_FILE_NANME.json' );
             $googleClient->setScopes( Google_Service_Indexing::INDEXING );
             $googleIndexingService = new Google_Service_Indexing( $googleClient );
 
@@ -31,7 +31,7 @@ class home extends Controller
 
             $urlNotification = new Google_Service_Indexing_UrlNotification([
                 'url' => $_GET["url"],
-                'type' => $type
+                'type' => "URL_DELETED"
             ]);
 
             $result = $googleIndexingService->urlNotifications->publish( $urlNotification );

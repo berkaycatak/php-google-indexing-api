@@ -12,7 +12,7 @@ class multiple extends Controller
             $googleClient = new Google\Client();
 
             // Add here location to the JSON key file that you created and downloaded earlier.
-            $googleClient->setAuthConfig( 'lyra-media-35279d101c92.json' );
+            $googleClient->setAuthConfig( 'YOUR_JSON_FILE_NANME.json' );
             $googleClient->setScopes( Google_Service_Indexing::INDEXING );
 
             $service = new Google_Service_Indexing( $googleClient );
