@@ -10,8 +10,15 @@ https://developers.google.com/search/apis/indexing-api/v3/prereqs
 
 ## Using ##
 
+### Add Json File ###
+Add your json file to the following directory.
+```sh
+assets/json/
+```
+
+
 ### Interface - Fill in the inputs. ###
-<b>Password:</b> The name of your json file. <br>
+<b>Password:</b> The name of your json file. (medialyra.com for medialyra.com.json)<br>
 <b>Website address:</b> The website you want indexed.
 
 <hr>
