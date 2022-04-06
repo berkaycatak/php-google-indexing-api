@@ -4,11 +4,19 @@ Indexing project written in PHP, using Google Indexing Api.
 It is assumed that the steps at this address are applied.
 https://developers.google.com/search/apis/indexing-api/v3/prereqs
 
-<img alt="image" src="https://user-images.githubusercontent.com/34205493/161426445-fef00e1b-d120-4baf-9f5a-5d9331aa264a.png">
+<img alt="Screenshot at Apr 06 18-52-00" src="https://user-images.githubusercontent.com/34205493/162016138-5514515b-5af1-4039-8b3a-e1ac0d299183.png">
+
+
 
 ## Using ##
 
-### For a single page: ###
+### Interface - Fill in the inputs. ###
+<b>Password:</b> The name of your json file. <br>
+<b>Website address:</b> The website you want indexed.
+
+<hr>
+
+### URL - For a single page: ###
 
 Update:
 ```sh
@@ -22,7 +30,7 @@ Delete:
 http://localhost/api/?method=2&url=https://www.your-website.com
 ```
 
-### For multiple pages: ###
+### URL - For multiple pages: ###
 
 Update:
 ```sh
