@@ -35,21 +35,21 @@
     <div class="wrap-contact100">
         <form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Index İsteği Gönder
+					Submit Indexing Request
 				</span>
 
-            <div class="wrap-input100 validate-input bg1" data-validate="Lütfen şifreyi girin.">
-                <span class="label-input100">Şifre *</span>
-                <input value="{{ $_SESSION["website"] }}" class="input100" type="text" name="website" placeholder="Şifrenizi girin">
+            <div class="wrap-input100 validate-input bg1" data-validate="Please enter the password.">
+                <span class="label-input100">Password *</span>
+                <input value="{{ $_SESSION["website"] }}" class="input100" type="text" name="website" placeholder="Password" required>
             </div>
 
             <div id="inputs">
-                <div class="wrap-input100 validate-input bg1" data-validate="Lütfen şifreyi girin.">
-                    <span class="label-input100">Website Adresi</span>
-                    <input class="input100" type="text" name="urls[]" placeholder="Indexletmek istediğiniz adresi girin">
+                <div class="wrap-input100 validate-input bg1">
+                    <span class="label-input100">Website Address</span>
+                    <input class="input100" type="text" name="urls[]" placeholder="Enter the address you want to index.">
                 </div>
             </div>
-            <span class="add-input" onclick="addInput()">İnput ekle</span>
+            <span class="add-input" onclick="addInput()">Add input</span>
 
             <div class="container-contact100-form-btn">
                 <button class="contact100-form-btn">
@@ -64,24 +64,7 @@
 </div>
 </body>
 
-<script type="text/javascript">
-    function addInput() {
-        var div = document.createElement("div");
-        div.setAttribute('class', 'wrap-input100 validate-input bg1');
-            var span = document.createElement("span");
-            span.setAttribute('class', 'label-input100');
-            span.innerHTML = 'Website Adresi';
-            div.appendChild(span);
 
-            var input = document.createElement("input");
-            input.setAttribute('type', 'text');
-            input.setAttribute('name', 'urls[]');
-            input.setAttribute('class', 'input100');
-            input.setAttribute('placeholder', 'Indexletmek istediğiniz adresi girin.');
-            div.appendChild(input);
-
-            var parent = document.getElementById("inputs");
-            parent.appendChild(div);
-    }
-</script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/def.js"></script>
 </html>

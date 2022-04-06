@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abc2692-82e5-4ba0-95b8-8a5a37fd6760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/json/gorenduyan.com.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/def.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/multiple.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/multiple.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +29,13 @@
       <list>
         <option value="composer.json" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -141,7 +143,7 @@
       <workItem from="1648980522769" duration="464000" />
       <workItem from="1648981005454" duration="3941000" />
       <workItem from="1648985269159" duration="4619000" />
-      <workItem from="1649251645614" duration="7233000" />
+      <workItem from="1649251645614" duration="8280000" />
     </task>
     <task id="LOCAL-00001" summary="MVC Architecture created.">
       <created>1647036532501</created>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649259856123</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="assets">
+      <created>1649260097311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649260097311</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +240,8 @@
     <MESSAGE value="json file name" />
     <MESSAGE value="change theme" />
     <MESSAGE value="theme changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme changed" />
+    <MESSAGE value="assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="assets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647078347536">
@@ -242,11 +252,11 @@
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="590" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080803610" />
-    <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2" timestamp="1649259855645">
+    <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2" timestamp="1649260096858">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080814320" />
-    <state x="424" y="25" key="CommitChangelistDialog2/0.25.1680.961@0.25.1680.961" timestamp="1649259855645" />
+    <state x="424" y="25" key="CommitChangelistDialog2/0.25.1680.961@0.25.1680.961" timestamp="1649260096858" />
     <state x="491" y="406" width="577" height="198" key="Github.ShareDialog" timestamp="1648985345318">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
@@ -269,20 +279,20 @@
     </state>
     <state x="350" y="141" key="SettingsEditor/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080771590" />
     <state x="350" y="141" key="SettingsEditor/0.25.1680.961@0.25.1680.961" timestamp="1648985296632" />
-    <state x="440" y="242" key="Vcs.Push.Dialog.v2" timestamp="1649259858147">
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2" timestamp="1649260098841">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080709028" />
-    <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961@0.25.1680.961" timestamp="1649259858147" />
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961@0.25.1680.961" timestamp="1649260098841" />
     <state x="870" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1648985144284">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="870" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.25.1680.961@0.25.1680.961" timestamp="1648985144284" />
-    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648990220019">
+    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649260810490">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647079459011" />
-    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961@0.25.1680.961" timestamp="1648990220019" />
+    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961@0.25.1680.961" timestamp="1649260810490" />
     <state x="679" y="300" key="svn.repositoryBrowser" timestamp="1647080541313">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
