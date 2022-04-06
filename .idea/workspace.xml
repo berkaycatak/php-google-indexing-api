@@ -10,10 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abc2692-82e5-4ba0-95b8-8a5a37fd6760" name="Default Changelist" comment="adding multiple.php">
+    <list default="true" id="0abc2692-82e5-4ba0-95b8-8a5a37fd6760" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/multiple.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/single.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/json/gorenduyan.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/multiple.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/multiple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,19 +109,22 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/controllers" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/json" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/controllers/multiple" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Application/views/index" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/controllers" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -135,7 +144,8 @@
       <workItem from="1647036426607" duration="7937000" />
       <workItem from="1648980522769" duration="464000" />
       <workItem from="1648981005454" duration="3941000" />
-      <workItem from="1648985269159" duration="4414000" />
+      <workItem from="1648985269159" duration="4619000" />
+      <workItem from="1649251645614" duration="7175000" />
     </task>
     <task id="LOCAL-00001" summary="MVC Architecture created.">
       <created>1647036532501</created>
@@ -179,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648988533779</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="json file name">
+      <created>1648990035189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648990035189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +224,8 @@
     <MESSAGE value="helper.php added" />
     <MESSAGE value="First commit" />
     <MESSAGE value="adding multiple.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding multiple.php" />
+    <MESSAGE value="json file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="json file name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647078347536">
@@ -218,11 +236,11 @@
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="590" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080803610" />
-    <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2" timestamp="1648989219443">
+    <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2" timestamp="1648990034965">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="424" y="25" width="1073" height="917" key="CommitChangelistDialog2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080814320" />
-    <state x="424" y="25" key="CommitChangelistDialog2/0.25.1680.961@0.25.1680.961" timestamp="1648989219443" />
+    <state x="424" y="25" key="CommitChangelistDialog2/0.25.1680.961@0.25.1680.961" timestamp="1648990034965" />
     <state x="491" y="406" width="577" height="198" key="Github.ShareDialog" timestamp="1648985345318">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
@@ -245,20 +263,20 @@
     </state>
     <state x="350" y="141" key="SettingsEditor/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080771590" />
     <state x="350" y="141" key="SettingsEditor/0.25.1680.961@0.25.1680.961" timestamp="1648985296632" />
-    <state x="440" y="242" key="Vcs.Push.Dialog.v2" timestamp="1648988535287">
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2" timestamp="1648990036699">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647080709028" />
-    <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961@0.25.1680.961" timestamp="1648988535287" />
+    <state x="440" y="242" key="Vcs.Push.Dialog.v2/0.25.1680.961@0.25.1680.961" timestamp="1648990036699" />
     <state x="870" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1648985144284">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="870" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.25.1680.961@0.25.1680.961" timestamp="1648985144284" />
-    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648989221721">
+    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648990220019">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961/-248.-1055.1920.1055@0.25.1680.961" timestamp="1647079459011" />
-    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961@0.25.1680.961" timestamp="1648989221721" />
+    <state x="632" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.961@0.25.1680.961" timestamp="1648990220019" />
     <state x="679" y="300" key="svn.repositoryBrowser" timestamp="1647080541313">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
